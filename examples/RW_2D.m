@@ -43,7 +43,7 @@ ylabel(ax, '$y$', 'Interpreter', 'latex');
 
 % prepare data
 [X, Y] = meshgrid(rw.domain.edges_x, rw.domain.edges_y);
-im_vis = flipud(im); % for compatibility with imagesc
+im_vis = flipud(im); % for compatibility with pcolor
 
 % plot the domain as a bw image
 h_domain = pcolor(ax, X, Y, padarray(double(im_vis), [1, 1], 'post'));
