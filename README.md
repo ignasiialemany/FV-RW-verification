@@ -12,7 +12,11 @@ addpath('classes');
 
 ## Reference
 
-Conference presentation:
+### Data
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4495730.svg)](https://doi.org/10.5281/zenodo.4495730)
+
+### Conference presentation
 
 > Rose et al. _Verifying Monte Carlo simulations of diffusion tensor cardiovascular magnetic resonance using a finite volume method_. 2018. 8th World Congress of Biomechanics, Dublin, Ireland.
 
